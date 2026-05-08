@@ -1,8 +1,7 @@
 # parity_clients
 
 import requests
-
-BASE_URL = "http://localhost:8000"
+from validation.config import BASE_URL
 
 
 class BaseClient:
