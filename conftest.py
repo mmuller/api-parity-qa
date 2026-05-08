@@ -1,6 +1,10 @@
 import pytest
 from validation.parity_clients import ClientOG, ClientNG
+from pytest_metadata.plugin import metadata_key
 
+
+def pytest_configure(config):
+    config.stash[metadata_key].pop("JAVA_HOME", None)
 
 @pytest.fixture
 def payload():
