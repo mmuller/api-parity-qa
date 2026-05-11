@@ -16,6 +16,12 @@ The goal is to detect failures that traditional API tests often miss.
 
 ---
 
+## Validation Flow Demo
+
+![Validation Demo](docs/images/validation-demo.gif)
+
+---
+
 ## System Under Test
 
 Target API repository:
